@@ -1,0 +1,175 @@
+body{background-image: url(../assets/imagenes/fondol.png)
+}
+
+
+
+
+.toast__container {
+  display: table-cell;
+  vertical-align: middle; 
+  
+}
+
+.toast__cell {
+  display: inline-block;
+}
+
+.add-margin {
+  margin-top: 20px;
+}
+
+.toast__svg {
+  fill: #fff;
+}
+
+.toast {
+
+  text-align: left;
+  padding: 21px 0;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 32%;
+  height: 23%;
+  position: fixed;
+  left: 68%;
+  top: 12%;
+
+
+  box-shadow: 1px 7px 14px -5px rgba(0, 0, 0, 0.2);
+}
+
+
+.toast:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 100%;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+
+}
+
+.toast__icon {
+  position: absolute;
+  top: 50%;
+  left: 22px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  padding: 7px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.toast__type {
+  color: #3e3e3e;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.toast__message {
+  font-size: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #878787;
+}
+
+.toast__content {
+  padding-left: 15%;
+  padding-right: 10%;
+
+}
+
+.toast__close {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  width: 5%;
+  cursor: pointer;
+  height: 20%;
+  fill: #878787;
+  transform: translateY(-50%);
+}
+
+.toast--green .toast__icon {
+  background-color: #007bff;
+}
+
+.toast--green:before {
+  background-color: #007bff;
+}
+
+.toast--blue .toast__icon {
+  background-color: #007bff;
+}
+
+.toast--blue:before {
+  background-color: #007bff;
+}
+
+.toast--yellow .toast__icon {
+  background-color: #007bff;
+}
+
+.toast--yellow:before {
+  background-color: #007bff;
+}
+
+#wrapper{padding:90px 15px;}
+.navbar-expand-lg .navbar-nav.side-nav{flex-direction: column;}
+.card{margin-bottom: 15px; border-radius:0; box-shadow: 0 3px 5px rgba(0,0,0,.1); }
+.header-top{box-shadow: 0 3px 5px #f2f3f5}
+.leftmenutrigger, .navbar-nav li a .shortmenu{display: none}
+.card-title{ font-size: 28px}
+@media(min-width:992px) {
+  .leftmenutrigger{display: block;display: block;margin: 7px 20px 4px 0;cursor: pointer;}
+  #wrapper{padding: 90px 15px 15px 75px; }
+  #wrapper.open{padding: 90px 15px 15px 225px; }
+  .navbar-nav.side-nav.open {left:0;}
+  .side-nav li a {padding: 20px}
+  .navbar-nav li a .shortmenu {float: right;display: block;opacity: 1}
+  .navbar-nav.side-nav.open.navbar-nav li a .shortmenu {opacity: 0}
+  .navbar-nav.side-nav{background:linear-gradient(to left, #0c2646 0%, #204065 60%, #2a5788 100%)!important;;box-shadow: 2px 1px 2px rgba(0,0,0,.1);position:fixed;top:83px;flex-direction: column!important;left:-140px;width:200px;bottom:0;padding-bottom:40px}
+
+  .navbar  {
+    background:linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%)!important;
+  }
+  .navbar-dark .navbar-toggler-icon {
+    background-color: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%)!important;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+
+  }
+  .table .thead-light th {
+    background: linear-gradient( #0c2646 0%, #010a43 50%, #1089ff 100%);
+    font-size: 125%;
+    color: #f4f9f4!important;
+    border-color: #dee2e6!important;
+    text-decoration-color: #fff!important;
+}
+
+  .animate{-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;transition:all .2s ease-in-out}
+  .navbar-nav li a svg{font-size: 25px;float: left;margin: 0 10px 0 5px;}
+  .side-nav li { border-bottom: 1px solid #f4f9f4;}
+  .side-nav .dropdown {position:initial;}
+  .side-nav .dropdown-menu {position:relative;opacity:0;left:120%;top:0;height:100%;border:0;padding:0;margin:0;border-radius:0;box-shadow:5px 0 5px rgba(0,0,0,.1);background:#eee;visibility: hidden;display:block;transition: .4s ease all;}
+  .side-nav .dropdown-menu.show {left:100%;opacity:1;visibility: visible;display:block;transition: .4s ease all;}
+#registerLE{
+  margin: 15px !important;
+}
+#margin{
+  margin: 15px !important;
+}
+#headerTop{
+  background-color: #267CD8!important;
+}
+.headerTop{
+  background-color: #267CD8!important;
+}
+
+
+}

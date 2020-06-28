@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+body {
+
+    background-image: url('../img/login.jpg');
+    font-family: 'Mukta', sans-serif;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1;
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(28, 40, 51 ,0.2) ;
+    z-index: 2;
+}
+
+.login-box {
+    width: 350px;
+    height: 450px;
+    background-color:rgba(52, 152, 219 ,0.1);
+    top: 50%;
+    left: 48.5%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 10px 50px 10px 50px;
+    -moz-border-radius: 10px 50px 10px 50px;
+    -webkit-border-radius: 10px 50px 10px 50px;
+    z-index: 20;
+}
+
+
+.login-box .imgArea{
+
+    
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: absolute;
+    top: -70px;
+    left: calc(50% - 70px);
+
+}
+
+.login-box h1 {
+
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 28px;
+    color:  #FDFEFE;
+    
+
+}
+
+
+.login-box h2 {
+
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    
+
+}
+
+.form-group i{
+    position: absolute;
+    left: 0;
+    top: 40.5%;
+    padding: 15px 34px;   
+
+}
+
+#i-pass{
+    position: absolute;
+    left: 0;
+    top: 56.5%;
+    padding: 15px 34px;   
+
+}
+
+#logo-pass,#logo-user{
+    width: 25px;
+    height: 25px;
+}   
+
+.login-box label{
+
+    margin: 0;
+    pad: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input{
+
+    width: 100%;
+    margin-bottom: 10px;
+    color: white;
+
+}
+#input-pass{
+    width: 90%;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"]{
+   
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 45px;
+    height: 33px;
+    color: white;
+}
+
+.form-control::placeholder{
+    color:#fff;
+}
+
+#optionL{
+   
+    
+    height: 33px;
+
+}
+
+.login-box input[type="submit"]{
+
+    
+    border:1px solid  #FDFEFE;
+    padding:5px 5px;
+    width:150px;
+    display:block;
+    text-align:center;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight: 500;
+    font-size: 18px;
+    height: 30px;
+
+    
+    
+
+}
+.credit {
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    color: #3B3B25;
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    z-index: 99;
+}
+a{
+  text-decoration:none;
+  color:#FDFEFE;
+}
+a:hover{
+color: #3498DB ;
+}
+
+#divImg2{
+    max-width: 13%;
+    margin-left: 82%;
+    margin-top: 59%
+
+   
+}
+
+.contenedor #divImg3{
+    max-width: 23%;
+    margin-left: 36.9%;
+    margin-top: 2%;
+    z-index: 99; 
+}
+
+#showandhide{
+    position: absolute;
+    right: 0;
+    top: 55.5%;
+    padding: 24px 28px;   
+    color: white;
+    cursor: pointer;
+}
